@@ -7,7 +7,7 @@
 #
 attrs==21.2.0
     # via pytest
-backports.entry-points-selectable==1.1.0
+backports-entry-points-selectable==1.1.0
     # via virtualenv
 certifi==2021.5.30
     # via requests
@@ -20,7 +20,7 @@ click==8.0.1
     #   pip-compile-multi
     #   pip-tools
 detect-secrets==0.12.5
-    # via -r requirements/tools.in
+    # via -r tools.in
 distlib==0.3.3
     # via virtualenv
 docopt==0.6.2
@@ -31,15 +31,6 @@ identify==2.2.15
     # via pre-commit
 idna==3.2
     # via requests
-importlib-metadata==4.8.1
-    # via
-    #   backports.entry-points-selectable
-    #   click
-    #   pep517
-    #   pluggy
-    #   pre-commit
-    #   pytest
-    #   virtualenv
 iniconfig==1.1.1
     # via pytest
 more-itertools==8.10.0
@@ -51,23 +42,23 @@ packaging==21.0
 pep517==0.11.0
     # via pip-tools
 pip-compile-multi==2.4.0
-    # via -r requirements/tools.in
+    # via -r tools.in
 pip-tools==6.3.0
     # via pip-compile-multi
 pipreqs==0.4.9
-    # via -r requirements/tools.in
+    # via -r tools.in
 platformdirs==2.4.0
     # via virtualenv
 pluggy==0.13.1
     # via pytest
 pre-commit==2.6.0
-    # via -r requirements/tools.in
+    # via -r tools.in
 py==1.10.0
     # via pytest
 pyparsing==2.4.7
     # via packaging
 pytest==6.0.1
-    # via -r requirements/tools.in
+    # via -r tools.in
 pyyaml==5.4.1
     # via
     #   detect-secrets
@@ -86,20 +77,14 @@ tomli==1.2.1
     # via pep517
 toposort==1.7
     # via pip-compile-multi
-typing-extensions==3.10.0.2
-    # via importlib-metadata
 urllib3==1.26.7
     # via requests
 virtualenv==20.8.1
     # via pre-commit
-wheel==0.37.0
+wheel==0.38.1
     # via pip-tools
 yarg==0.1.9
     # via pipreqs
-zipp==3.6.0
-    # via
-    #   importlib-metadata
-    #   pep517
 
 # The following packages are considered to be unsafe in a requirements file:
 # pip
